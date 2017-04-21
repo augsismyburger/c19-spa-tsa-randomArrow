@@ -1,0 +1,37 @@
+body {
+    background-color: darkgrey;
+}
+#bod {
+    height: 100vh;
+    width: auto;
+}
+#right-arrow {
+  width: 0;
+  height: 0;
+  border-top: 200px solid transparent;
+  border-bottom: 200px solid transparent;
+
+  border-left: 200px solid white;
+  margin-top: 10em;
+  float: right;
+  margin-right: 20em;
+}
+
+#left-arrow {
+  width: 0;
+  height: 0;
+  border-top: 200px solid transparent;
+  border-bottom: 200px solid transparent;
+
+  border-right:200px solid white;
+  margin-top: 10em;
+  float: left;
+  margin-left: 20em;
+}
+
+.hidden {
+    visibility: hidden;
+}
+.visible {
+    visibility: visible;
+}
